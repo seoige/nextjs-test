@@ -27,7 +27,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\Users\\Sean\\Documents\\next-js-Apps\\components\\ExchangeCurrent.js";
+var _jsxFileName = "C:\\Users\\seanj\\Documents\\Javascript-projects\\next-js-proj\\nextjs-test\\components\\ExchangeCurrent.js";
 
 
 
@@ -207,7 +207,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Navbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Navbar */ "./components/Navbar.js");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "C:\\Users\\Sean\\Documents\\next-js-Apps\\components\\Layout.js";
+var _jsxFileName = "C:\\Users\\seanj\\Documents\\Javascript-projects\\next-js-proj\\nextjs-test\\components\\Layout.js";
 
 
 
@@ -299,7 +299,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\Sean\\Documents\\next-js-Apps\\components\\Navbar.js";
+var _jsxFileName = "C:\\Users\\seanj\\Documents\\Javascript-projects\\next-js-proj\\nextjs-test\\components\\Navbar.js";
 
 
 
@@ -414,7 +414,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\Users\\Sean\\Documents\\next-js-Apps\\components\\Prices.js";
+var _jsxFileName = "C:\\Users\\seanj\\Documents\\Javascript-projects\\next-js-proj\\nextjs-test\\components\\Prices.js";
 
 
 var Prices =
@@ -553,7 +553,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\Users\\Sean\\Documents\\next-js-Apps\\components\\TabsHolder.js";
+var _jsxFileName = "C:\\Users\\seanj\\Documents\\Javascript-projects\\next-js-proj\\nextjs-test\\components\\TabsHolder.js";
 
 
 
@@ -811,7 +811,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\Users\\Sean\\Documents\\next-js-Apps\\components\\WeatherMap.js";
+var _jsxFileName = "C:\\Users\\seanj\\Documents\\Javascript-projects\\next-js-proj\\nextjs-test\\components\\WeatherMap.js";
 
 
 
@@ -7115,10 +7115,10 @@ exports.formatWithValidation = formatWithValidation;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5CSean%5CDocuments%5Cnext-js-Apps%5Cpages%5Cindex.js!./":
-/*!******************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5CSean%5CDocuments%5Cnext-js-Apps%5Cpages%5Cindex.js ***!
-  \******************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5Cseanj%5CDocuments%5CJavascript-projects%5Cnext-js-proj%5Cnextjs-test%5Cpages%5Cindex.js!./":
+/*!*******************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5Cseanj%5CDocuments%5CJavascript-projects%5Cnext-js-proj%5Cnextjs-test%5Cpages%5Cindex.js ***!
+  \*******************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13116,7 +13116,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_TabsHolder__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/TabsHolder */ "./components/TabsHolder.js");
 
 
-var _jsxFileName = "C:\\Users\\Sean\\Documents\\next-js-Apps\\pages\\index.js";
+var _jsxFileName = "C:\\Users\\seanj\\Documents\\Javascript-projects\\next-js-proj\\nextjs-test\\pages\\index.js";
 
 
 
@@ -13226,13 +13226,13 @@ _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(f
 /***/ }),
 
 /***/ 0:
-/*!**********************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5CSean%5CDocuments%5Cnext-js-Apps%5Cpages%5Cindex.js ***!
-  \**********************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5Cseanj%5CDocuments%5CJavascript-projects%5Cnext-js-proj%5Cnextjs-test%5Cpages%5Cindex.js ***!
+  \***********************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5CSean%5CDocuments%5Cnext-js-Apps%5Cpages%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5CSean%5CDocuments%5Cnext-js-Apps%5Cpages%5Cindex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5Cseanj%5CDocuments%5CJavascript-projects%5Cnext-js-proj%5Cnextjs-test%5Cpages%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5Cseanj%5CDocuments%5CJavascript-projects%5Cnext-js-proj%5Cnextjs-test%5Cpages%5Cindex.js!./");
 
 
 /***/ }),
