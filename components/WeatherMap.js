@@ -1,4 +1,3 @@
-import Fetch from 'isomorphic-unfetch';
 import Weatherwidget from './Weatherwidget';
 
 class WeatherMap extends React.Component{

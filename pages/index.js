@@ -1,7 +1,5 @@
 import Layout from '../components/Layout';
-import Fetch from 'isomorphic-unfetch';
 import Prices from '../components/Prices';
-import ExchangeCurrent from '../components/ExchangeCurrent';
 import TabsHolder from '../components/TabsHolder';
 
 const Index = (props) => (
