@@ -33,8 +33,6 @@ class ExchangeCurrent extends React.Component{
 
     return(
       <div>
-      <div>
-      </div>
         <div class="card border-primary mb-3" style={this.myStyle}>
           <div class="card-header"><h4 class="card-title"><span class="badge badge-primary">{this.state.currency}</span></h4>Exchange Rates for:  <strong>{this.props.exc.date}</strong></div>
           <div class="card-body">

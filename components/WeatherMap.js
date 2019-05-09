@@ -1,4 +1,5 @@
 import Fetch from 'isomorphic-unfetch';
+import Weatherwidget from './Weatherwidget';
 
 class WeatherMap extends React.Component{
 
@@ -10,27 +11,32 @@ class WeatherMap extends React.Component{
   }
 
   getWeatherData = async() => {
-
       fetch('https://tile.openweathermap.org/map/precipitation_new/1/1/1.png?appid=038b0cc9c6214552f03247312f5f166a')
       .then((response) => {
         if (response.status == 200) {
-          return response.blob() // <--------------- consume body here
+          return response.blob() // <-- consume body here
         } else {
           throw new Error();
         }
-      })
-      .then((responseData) => {
+      }).then((responseData) => {
         const objectURL = URL.createObjectURL(responseData);
         this.setState({images:objectURL});
         console.log(responseData);
       })
-
   }
 
   render(){
     return(
       <div>
         <img src={this.state.images}/>
+
+          <div class="card border-primary mb-3" >
+            <div class="card-header"><h4 class="card-title"><span class="badge badge-primary">sample text</span></h4></div>
+            <div class="card-body">
+              <Weatherwidget />
+              <p class="card-text">All weather information is provided by <span class="badge badge-info">OpenWeatherAPI</span> available at Openweatherapi </p>
+            </div>
+          </div>
       </div>
     );
   }

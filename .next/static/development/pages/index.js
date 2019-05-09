@@ -111,72 +111,66 @@ function (_React$Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 36
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         class: "card border-primary mb-3",
         style: this.myStyle,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 38
+          lineNumber: 36
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         class: "card-header",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 39
+          lineNumber: 37
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h4", {
         class: "card-title",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 39
+          lineNumber: 37
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("span", {
         class: "badge badge-primary",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 39
+          lineNumber: 37
         },
         __self: this
       }, this.state.currency)), "Exchange Rates for:  ", react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("strong", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 39
+          lineNumber: 37
         },
         __self: this
       }, this.props.exc.date)), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         class: "card-body",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 40
+          lineNumber: 38
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("ul", {
         className: "listgroup",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 41
+          lineNumber: 39
         },
         __self: this
       }, this.createList()), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", {
         class: "card-text",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 44
+          lineNumber: 42
         },
         __self: this
       }, "All currency exchange rates are provided by ", react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("span", {
         class: "badge badge-info",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 44
+          lineNumber: 42
         },
         __self: this
       }, "exchangeratesapi"), " and are published by the European Central Bank "))));
@@ -368,24 +362,84 @@ var Navbar = function Navbar() {
       lineNumber: 12
     },
     __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "nav-link",
+    href: "#",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, "Features")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "nav-item",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "nav-link",
+    href: "#",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }, "Pricing")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "nav-item",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/about",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 19
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     className: "nav-link",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 19
     },
     __self: this
   }, "About")))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Navbar);
+/*
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarColor01">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Features</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Pricing</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search">
+      <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+*/
 
 /***/ }),
 
@@ -802,6 +856,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_9__);
 /* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! isomorphic-unfetch */ "./node_modules/isomorphic-unfetch/browser.js");
 /* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _Weatherwidget__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./Weatherwidget */ "./components/Weatherwidget.js");
 
 
 
@@ -812,6 +867,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var _jsxFileName = "C:\\Users\\seanj\\Documents\\Javascript-projects\\next-js-proj\\nextjs-test\\components\\WeatherMap.js";
+
 
 
 
@@ -848,7 +904,7 @@ function (_React$Component) {
             case 0:
               fetch('https://tile.openweathermap.org/map/precipitation_new/1/1/1.png?appid=038b0cc9c6214552f03247312f5f166a').then(function (response) {
                 if (response.status == 200) {
-                  return response.blob(); // <--------------- consume body here
+                  return response.blob(); // <-- consume body here
                 } else {
                   throw new Error();
                 }
@@ -884,17 +940,72 @@ function (_React$Component) {
       return react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 32
+          lineNumber: 30
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("img", {
         src: this.state.images,
         __source: {
           fileName: _jsxFileName,
+          lineNumber: 31
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
+        class: "card border-primary mb-3",
+        __source: {
+          fileName: _jsxFileName,
           lineNumber: 33
         },
         __self: this
-      }));
+      }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
+        class: "card-header",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 34
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("h4", {
+        class: "card-title",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 34
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("span", {
+        class: "badge badge-primary",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 34
+        },
+        __self: this
+      }, "sample text"))), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
+        class: "card-body",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 35
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement(_Weatherwidget__WEBPACK_IMPORTED_MODULE_11__["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 36
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("p", {
+        class: "card-text",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 37
+        },
+        __self: this
+      }, "All weather information is provided by ", react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("span", {
+        class: "badge badge-info",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 37
+        },
+        __self: this
+      }, "OpenWeatherAPI"), " available at Openweatherapi "))));
     }
   }]);
 
@@ -903,6 +1014,61 @@ function (_React$Component) {
 
 /* harmony default export */ __webpack_exports__["default"] = (WeatherMap); //https://tile.openweathermap.org/map/{layer}/{z}/{x}/{y}.png?appid={api_key}
 //key:  038b0cc9c6214552f03247312f5f166a
+
+/***/ }),
+
+/***/ "./components/Weatherwidget.js":
+/*!*************************************!*\
+  !*** ./components/Weatherwidget.js ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
+
+
+
+
+
+var _jsxFileName = "C:\\Users\\seanj\\Documents\\Javascript-projects\\next-js-proj\\nextjs-test\\components\\Weatherwidget.js";
+
+
+var Weatherwidget =
+/*#__PURE__*/
+function (_React$Component) {
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(Weatherwidget, _React$Component);
+
+  function Weatherwidget() {
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Weatherwidget);
+
+    return Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Weatherwidget).apply(this, arguments));
+  }
+
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Weatherwidget, [{
+    key: "render",
+    value: function render() {
+      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 5
+        },
+        __self: this
+      });
+    }
+  }]);
+
+  return Weatherwidget;
+}(react__WEBPACK_IMPORTED_MODULE_5___default.a.Component);
+
+/* harmony default export */ __webpack_exports__["default"] = (Weatherwidget);
 
 /***/ }),
 
