@@ -21,7 +21,6 @@ class WeatherMap extends React.Component{
       }).then((responseData) => {
         const objectURL = URL.createObjectURL(responseData);
         this.setState({images:objectURL});
-        console.log(responseData);
       })
   }
 
