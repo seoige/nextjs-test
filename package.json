@@ -1,0 +1,24 @@
+{
+  "name": "nextjs-tutorial1",
+  "version": "1.0.0",
+  "description": "a next js tutorial project",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^8.1.0",
+    "npm": "^6.9.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "underscore": "^1.9.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "next",
+    "test": "test",
+    "build": "next-build",
+    "start": "next start"
+  },
+  "author": "Sean",
+  "license": "ISC"
+}
