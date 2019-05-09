@@ -6,10 +6,10 @@ class WeatherMap extends React.Component{
   state = { images: undefined };
 
   componentDidMount(){
-    this.getWeatherData();
+    this.getWeatherDataImage();
   }
 
-  getWeatherData = async() => {
+  getWeatherDataImage = async() => {
       fetch('https://tile.openweathermap.org/map/precipitation_new/1/1/1.png?appid=038b0cc9c6214552f03247312f5f166a')
       .then((response) => {
         if (response.status == 200) {
